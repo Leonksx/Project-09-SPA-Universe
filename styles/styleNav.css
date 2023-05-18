@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-main: font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  font-family: var(--ff-main);
+}
+
+nav {
+  position: absolute;
+  background: transparent;
+  height: 12.2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 4.2rem;
+  padding: 7.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #8D8D99;
+  font-weight: 400;
+  font-size: 2.16rem;
+  line-height: 2.2rem;
+}
+
+.textcolor {
+  color: white;
+}
+
+.bgHome {
+  background-image: url(../assets/bghome.svg);
+}
+
+.bgUniverse {
+  background-image: url(../assets/bgOuniverse.svg);
+}
+
+.bgExploracao {
+  background-image: url(../assets/bgexploracao.svg);
+}
